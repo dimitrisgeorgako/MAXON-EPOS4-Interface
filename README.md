@@ -12,4 +12,5 @@ Project build includes custom libraries and src files, containing:
   - Main CAN functionalities that handle CANOpen physical layer, based on STM32 HAL libraries 
   - ADC readings and PID implementation with Linear Sensor feedback for improved motor control
 
-Main CANOpen libraries can be found inside files: ./Core/Src/
+Main CANOpen libraries can be found inside files: ./Core/Src/CAN_Open_Functions.c and ./Core/Inc/CAN_Open_Functions.h...
+USB messages are handled via Interrupt mode, as it can be viewed on file: 
