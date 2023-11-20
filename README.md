@@ -1,4 +1,4 @@
-# MAXON EPOS4 Interface with STM32 family
+# MAXON EPOS4 Interface with STM32 family MCUs
 
 This repository contains project files build for STM32F4 MCU, but can be integrated into multiple ARM processor project files. 
 It provides the basic interface with EPOS4 MAXON BLDC motor controllers for real time applications, via CANOpen communication, as well as 
