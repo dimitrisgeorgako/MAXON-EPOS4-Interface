@@ -14,3 +14,5 @@ Project build includes custom libraries and src files, containing:
 
 Main CANOpen libraries can be found inside files: ./Core/Src/CAN_Open_Functions.c and ./Core/Inc/CAN_Open_Functions.h...
 USB stack Rx messages are handled via Interrupt mode, based on: ./USB_DEVICE/App/usb_cdc_if.c: static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
+
+CANOpen network information can be viewed on: https://www.csselectronics.com/pages/canopen-tutorial-simple-intro
