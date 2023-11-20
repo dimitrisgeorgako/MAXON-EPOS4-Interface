@@ -2,7 +2,7 @@
 
 This repository contains project files build for STM32F4 MCU that interfaces with EPOS4 controllers, via CANOpen communication.
 
-Project build includes:
+Project build includes custom libraries and src files, containing:
 
   - Basic CANOpen Protocol stack for basic communication with MAXON controller
   - FreeRTOS usage for task management and work scheduling over real time control applications
